@@ -18,7 +18,7 @@ const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
 const BotName = 'AhsanAdinul'; 
-const instagram = 'https://instagram.com/muh_ahsan1999'; 
+const instagram = 'https://instagram.com/ahsan_adinul2'; 
 const whatsapp = 'wa.me/6285157566434'; 
 const kapanbotaktif = '24 JAM'; 
 //const grupch1 = 'belum ada grup'; 
