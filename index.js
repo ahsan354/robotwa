@@ -17,9 +17,9 @@ const menu = require("./lib/menu.js");
 const donasi = require("./lib/donasi.js");
 const info = require("./lib/info.js");
 /////////////////
-const BotName = 'ALF BOT'; 
-const instagram = 'https://instagram.com/aditiaalfians'; 
-const whatsapp = 'wa.me/6285799496179'; 
+const BotName = 'AhsanAdinul'; 
+const instagram = 'https://instagram.com/muh_ahsan1999'; 
+const whatsapp = 'wa.me/6285157566434'; 
 const kapanbotaktif = '24 JAM'; 
 //const grupch1 = 'belum ada grup'; 
 //const grupch2 = 'belum ada grup' ; 
@@ -115,15 +115,6 @@ axios.get(`https://alfians-api.herokuapp.com/api/yta?url=${teks}`).then((res) =>
 	conn.sendMessage(id, '[ WAIT ] Sedang di proses⏳ silahkan tunggu sebentar', MessageType.text)
     let hasil = `✅Lagu Berhasil Di Download, silahkan klik link dan download hasilnya\nKlik link dibawah🗡️\n\nJudul: ${res.data.title}\n\nUkuran audio: ${res.data.filesize}\n\nLink: ${res.data.result}`;
     conn.sendMessage(id, hasil ,MessageType.text);
-})
-}
-
-if (text.includes(!igstalk")){
-const teks = text.replace(/!igstalk/, "")
-axios.get("https://alfians-api.herokuapp.com/api/stalk?username=${teks}`).then((res) => {
-        conn.sendMessage(id, '[WAIT] Stalking...🗡️',MessageType.text)
-    let hasil = `✅Biodata Instagram _${teks}_ \n\n🗡️*Username* : _${res.data.Username}_\n🗡️*Nama* : _${res.data.Name}_\n🗡️*Jumlah Followers*
-    conn.sendMessage(id, hasil ,MessageTypr.text);
 })
 }
 
