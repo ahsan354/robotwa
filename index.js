@@ -118,12 +118,12 @@ axios.get(`https://alfians-api.herokuapp.com/api/yta?url=${teks}`).then((res) =>
 })
 }
 
-if (text.includes(!igstalk"))
-const teks = text.replace(/!igstalk/,"")
-axios.get("https://alfians-api.herokuapp.com/api/stalk?username=${teks}`).then ((res) =>{
+if (text.includes(!igstalk")){
+const teks = text.replace(/!igstalk/, "")
+axios.get("https://alfians-api.herokuapp.com/api/stalk?username=${teks}`).then((res) => {
         conn.sendMessage(id, '[WAIT] Stalking...🗡️',MessageType.text)
     let hasil = `✅Biodata Instagram _${teks}_ \n\n🗡️*Username* : _${res.data.Username}_\n🗡️*Nama* : _${res.data.Name}_\n🗡️*Jumlah Followers*
-conn.sendMessage(id, hasil, MessageTypr.text);
+    conn.sendMessage(id, hasil ,MessageTypr.text);
 })
 }
 
