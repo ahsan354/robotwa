@@ -2,7 +2,7 @@
 BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 
 
-<img src = "https://i.ibb.co/jD65tdm/62-812-1347-7896-20201109-230938.jpg" width="320">
+<img src = "https://i.ibb.co/LQkNF8H/download.jpg" width="320">
 
 
 
@@ -32,9 +32,9 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 | :-----------: | :--------------------------------:  |
 |       ✅       |    PANTUN                         |
 |       ✅       | ANIMEPICT                         |
-|       ✅       | STICKER                           |
+|       ⛔       | STICKER                           |
 |       ✅       | NULIS 
-|       ✅       | OCR                               |
+|       ⛔       | OCR                               |
 |       ✅       | QUOTES                            |
 |       ✅       | RANDOM PICT                       |
 |       ✅       | ANIMEPICT                         |
@@ -42,7 +42,7 @@ BOT WHATSAPP YANG BISA DIGUNAKAN DI TERMUX
 |       ✅       | ALAY                              |
 |       ✅       | YT,YTMP3,TWT,TIK TOK DOWNLOADER   |
 |       ✅       | WIKIPEDIA                         |
-|       ✅       | ARTI NAMA                         |
+|       ⛔       | ARTI NAMA                         |
 |       ✅       | SHOLAT                            |
 |       ✅       | QURAN                             |
 
