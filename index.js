@@ -109,6 +109,24 @@ if (text.includes("!say")){
 conn.sendMessage(id, teks, MessageType.text)
 }
 
+	if (text.includes(".infogempa")){
+  const teks = text.replace(/.infogempa /, "")
+  axios.get(`https://st4rz.herokuapp.com/api/infogempa`).then ((res) =>{
+  conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
+  let hasil = ` *INFO GEMPA* \n\ *Lokasi* : _${res.data.lokasi}_ \n *Kedalaman✍️* : _${res.data.kedalaman}_ \n *Koordinat✍️* : _${res.data.koordinat}_ \n *Magnitude✍️* : _${res.data.magnitude}_ \n *Waktu✍️* : _${res.data.waktu}_ `;
+  conn.sendMessage(id, hasil, MessageType.text);
+})
+}
+	
+if (text.includes(".chord")){
+const teks = text.replace(/.chord /, "")
+axios.get(`https://st4rz.herokuapp.com/api/chord?q=${teks}`).then((res) => {
+	conn.sendMessage(id, '[WAIT] Searching...⏳', MessageType.text)
+    let hasil = `*Nih Cord Lagu ${teks} kak* \n\nCord: _${res.data.result}_ `;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
+	
 if (text.includes("!ytmp3")){
 const teks = text.replace(/!ytmp3 /, "")
 axios.get(`https://alfians-api.herokuapp.com/api/yta?url=${teks}`).then((res) => {
