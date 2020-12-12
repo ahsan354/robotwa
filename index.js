@@ -117,6 +117,14 @@ conn.sendMessage(id, teks, MessageType.text)
   conn.sendMessage(id, hasil, MessageType.text);
 })
 }
+	if (text.includes(".coronainfoall")){
+const teks = text.replace(/.coronainfoall /, "")
+axios.get(`https://api.terhambar.com/negara/World`).then((res) => {
+	conn.sendMessage(id, '[WAIT] Searching...❗', MessageType.text)
+    let hasil = `info corona all \n\n *negara* : _${res.data.negara}_ \n *total* : _${res.data.total}_ \n *kasus_baru* : _${res.data.kasus_baru}_ \n *meninggal* : _${res.data.meninggal}_ \n *meninggal_baru* : _${res.data.meninggal_baru}_ \n *sembuh* : _${res.data.sembuh}_ \n *penanganan* : _${res.data.penanganan}_ \n *terakhir* : _${res.data.terakhir}`;
+    conn.sendMessage(id, hasil ,MessageType.text);
+})
+}
 	
 if (text.includes(".chord")){
 const teks = text.replace(/.chord /, "")
