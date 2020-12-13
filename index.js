@@ -117,19 +117,6 @@ console.log(exists);
 conn.sendMessage(id ,`${gg} ${exists ? " exists " : " does not exist"} on WhatsApp`, MessageType.text)
 }
 
-//Chat XP-TN
-
-
-else if (text == '.tools4'){
-conn.sendMessage(id, ' *Menampilkan Fitur tools4!!!* ' ,MessageType.text);
-}
-else if (text == '.tools5'){
-conn.sendMessage(id, ' *Menampilkan Fitur tools5!!!* ' ,MessageType.text);
-}
-else if (text == '.tools6'){
-conn.sendMessage(id, ' *Menampilkan Fitur tools6!!!* ' ,MessageType.text);
-}
-
 // Fitur
 
 if (text.includes('.nulis')){
