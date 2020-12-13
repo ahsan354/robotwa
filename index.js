@@ -16,14 +16,11 @@ const BotName = 'Ahsan354';
 const instagram = 'https://instagram.com/muh_ahsan1999'; 
 const whatsapp = 'wa.me/6285157566434'; 
 const kapanbotaktif = '23 jam'; 
-const bot1 = require("./lib/xp4.js");
-const bot2 = require("./lib/xp5.js");
-const bot3 = require("./lib/bot4.js");
-//const grupch1 = 'belum ada grup'; 
-//const grupch2 = 'belum ada grup';
 const bot1 = require("./lib/bot1.js");
 const bot2 = require("./lib/bot2.js");
 const bot3 = require("./lib/bot3.js");
+//const grupch1 = 'belum ada grup'; 
+//const grupch2 = 'belum ada grup';
 const readTextInImage = require('./lib/ocr')
 
 //
